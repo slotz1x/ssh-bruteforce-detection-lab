@@ -20,7 +20,6 @@ Each alert uses a different SPL search to identify a specific authentication
 behavior. When the search meets the configured trigger condition, Splunk
 generates an alert for analyst review.
 
----
 
 ## 1. Multiple SSH Authentication Attempts
 
@@ -31,7 +30,6 @@ password guessing.
 **Behavior:**  
 Volume — multiple authentication attempts within the search period.
 
----
 
 ## 2. Multiple Failures Followed by Success
 
@@ -42,7 +40,6 @@ authentication from the same source against the same account.
 **Behavior:**  
 Sequence — authentication failures followed by a successful login.
 
----
 
 ## 3. One Source IP Attempting Multiple Usernames
 
@@ -53,7 +50,6 @@ usernames.
 **Behavior:**  
 Breadth — one source targeting multiple user accounts.
 
----
 
 ## Summary
 
